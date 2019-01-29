@@ -554,7 +554,7 @@
     source-map "^0.7.3"
     vue-template-es2015-compiler "^1.6.0"
 
-"@vue/devtools@5.0.0-beta.3":
+"@vue/devtools@^5.0.0-beta.3":
   version "5.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/@vue/devtools/-/devtools-5.0.0-beta.3.tgz#5f0b28db9f33681c8bb841887c28d523e91c9d06"
   dependencies:
@@ -3463,9 +3463,9 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-nativescript-dev-webpack@next:
-  version "0.19.1-next-2019-01-25-091836-01"
-  resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-0.19.1-next-2019-01-25-091836-01.tgz#c0be3dc3b059b2bd2f4de8c77d4a874dd49e1e67"
+nativescript-dev-webpack@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-0.19.1.tgz#55329a498cd36a04c2cbefbf7176ce6fd6ad9664"
   dependencies:
     "@angular-devkit/core" "~7.1.0"
     clean-webpack-plugin "~1.0.0"
@@ -3520,7 +3520,7 @@ nativescript-ui-sidedrawer@^4.3.0:
   dependencies:
     nativescript-ui-core "~2.0.0"
 
-nativescript-vue-devtools@^1.0.0:
+nativescript-vue-devtools@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nativescript-vue-devtools/-/nativescript-vue-devtools-1.1.0.tgz#dc2ce1755dd2f28cc542b25da79639ec8be6ffab"
 
