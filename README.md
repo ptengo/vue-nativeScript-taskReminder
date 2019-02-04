@@ -1,4 +1,4 @@
-# Vue Native Task Reminder
+# NativeScript-Vue Application
 
 > A native application built with NativeScript-Vue
 

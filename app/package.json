@@ -3,6 +3,6 @@
     "v8Flags": "--expose_gc"
   },
   "main": "main",
-  "name": "vue-native-task-reminder",
+  "name": "reminder-vue-native",
   "version": "1.0.0"
 }

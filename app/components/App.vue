@@ -8,6 +8,10 @@
           @tap="$refs.drawer.nativeView.showDrawer()"
           col="0"
         />
+        <!-- <Label
+          :text="locales.navBarButtonText"
+          col="0"
+        /> -->
         <Label class="title" :text="locales.navBarTitle" col="1"/>
       </GridLayout>
     </ActionBar>
@@ -27,10 +31,9 @@
           <v-template>
             <FlexboxLayout flexDirection="column" class="list-group-item">
               <!-- <Image :src="country.imageSrc" class="thumb img-circle" /> -->
-              <Label :text="task.name" class="list-group-item-heading" height="50"/>
+              <Label :text="task.name" class="list-group-item-heading" height="50" click/>
             </FlexboxLayout>
           </v-template>
-        </ListView>
       </GridLayout>
     </RadSideDrawer>
   </Page>
@@ -38,6 +41,11 @@
 
 <script>
 export default {
+  methods: {
+    onItemTap: function(item) {
+      console.log('Item tapped: ', item);
+    }
+  },
   data() {
     return {
       locales: {
@@ -71,6 +79,10 @@ export default {
 ActionBar {
   background-color: #53ba82;
   color: #ffffff;
+}
+
+.list-group-item-heading {
+    color: black;
 }
 
 .list-group-item {
